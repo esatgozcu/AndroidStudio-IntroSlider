@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <!-- Ekran Arka Planları-->
+    <color name="slide1">#f64c73</color>
+    <color name="slide2">#20d2bb</color>
+    <color name="slide3">#3395ff</color>
+    <color name="slide4">#c873f4</color>
+
+    <!-- Noktaların pasif renkleri -->
+    <color name="slide1_nokta_pasif">#d1395c</color>
+    <color name="slide2_nokta_pasif">#14a895</color>
+    <color name="slide3_nokta_pasif">#2278d4</color>
+    <color name="slide4_nokta_pasif">#a854d4</color>
+
+    <!-- Noktaların aktif renkleri -->
+    <color name="slide1_nokta_aktif">#f98da5</color>
+    <color name="slide2_nokta_aktif">#8cf9eb</color>
+    <color name="slide3_nokta_aktif">#93c6fd</color>
+    <color name="slide4_nokta_aktif">#e4b5fc</color>
+
+    <array name="array_dot_active">
+        <item>@color/slide1_nokta_aktif</item>
+        <item>@color/slide2_nokta_aktif</item>
+        <item>@color/slide3_nokta_aktif</item>
+        <item>@color/slide4_nokta_aktif</item>
+    </array>
+
+    <array name="array_dot_inactive">
+        <item>@color/slide1_nokta_pasif</item>
+        <item>@color/slide2_nokta_pasif</item>
+        <item>@color/slide3_nokta_pasif</item>
+        <item>@color/slide4_nokta_pasif</item>
+    </array>
+</resources>
